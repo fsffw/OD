@@ -1,20 +1,16 @@
-# Viajes Écija ↔ Sevilla – Mayo 2024
+# Écija-Sevilla Mayo 2024 - App Simple
 
-App Streamlit que muestra:
-- Total de viajes entre Écija (41038) y Sevilla (41091) durante mayo 2024.
+App Streamlit:
+- Muestra total de viajes carretera entre Écija (41038) y Sevilla (41091) en mayo de 2024.
 - Serie diaria de viajeros.
-- Mapa de flujo con grosor proporcional al número de viajeros.
+- Mapa de flujo sencillo con líneas de grosor proporcional.
 
 ## Despliegue en Streamlit Cloud
+1. Subir repo a GitHub.
+2. Deploy using Streamlit Cloud, selecciona `ecija_sevilla_simple.py`.
 
-1. Sube este repo a un repositorio público de GitHub.
-2. Ve a https://streamlit.io/cloud y haz desplegar nueva app.
-3. Selecciona tu repo y el archivo `ecija_sevilla_may2024_dashboard.py`.
-4. La app estará disponible en un link único.
-
-## Ejecución local
-
-```bash
+## Uso local
+```
 pip install -r requirements.txt
-streamlit run ecija_sevilla_may2024_dashboard.py
+streamlit run ecija_sevilla_simple.py
 ```
